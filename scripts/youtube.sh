@@ -7,7 +7,7 @@ option=$(echo -e "Trading\nTradingJournal\nChatGPT\nNetflix\nBooks\nYoutube\nMus
 case $option in
 
     Music)
-        st ytermusic
+        # st ytermusic
         ;;
     Youtube)
         choice=$(echo -e "Watch\nDownload" | dmenu -c -i -l 10)
